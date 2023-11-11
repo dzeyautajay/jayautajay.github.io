@@ -143,9 +143,11 @@ color: #fff;
 }
 
 .footer1{
-    height:12;
-    width:12;
     text-align: left;
+}
+.footer1 img{
+    height:12px;
+    width:12px;
 }
 .footer1 p3{
     gap: 20px;
