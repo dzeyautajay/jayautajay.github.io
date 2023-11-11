@@ -1,0 +1,76 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 900px;
+}
+
+.glassmorphism {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 600px;
+}
+
+h2 {
+    color: #002850;
+}
+
+.form-group {
+    margin: 15px 0;
+    text-align: left;
+}
+
+label {
+    color: #002850;
+    font-weight: bold;
+    display: block;
+}
+
+input {
+    width: 89.6%;
+    padding: 10px;
+    border: none;
+    background: #bdff231e;
+    border-radius: 5px;
+    color: #002850;
+    outline: none;
+}
+
+.password-toggle {
+    cursor: pointer;
+    color: #002850;
+    font-size: 14px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: #bdff23;
+    color: #002850;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.9s ease;
+}
+
+button:hover {
+    color: #bdff23;
+    background: #81c5f1;
+}

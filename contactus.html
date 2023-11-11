@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="contactus.css">
+  <title>Contact Us</title>
+</head>
+  <nav id="navbar">
+    <ul>
+        <li><a href="homepage.html">Home</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="about.html">About Us</a></li>
+    </ul>
+    <div class="school"><a href="homepage.html"><img src="https://github.com/dzeyautajay/jayautajay.github.io/blob/main/main/logo.png" alt="CMCS Logo" height="50px" width="50px"></a></div>
+</nav>
+<body>
+<div class="main">
+<div class="emailForm">
+  <h2>What you want us to know?</h2>
+  <form id="composerForm">
+    <label for="recipient">Let us know your feedback and concerns,<br>fill the form below and were happy to know your<br>thoughts and questions.</label>
+    <input type="email" id="recipient" name="recipient" value="autajayjay6@gmail.com" readonly>
+
+    <label for="senderGmail">Your contact number.</label>
+    <input type="email" id="senderGmail" name="senderGmail" required>
+
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="address">Address:</label>
+    <input type="text" id="address" name="address" required>
+
+    <label for="currentDate"></label>
+    <input type="text" id="currentDate" name="currentDate" readonly>
+
+    <label for="concerns">Concerning:</label>
+    <div class="checkbox-group">
+      <div id="check"><input type="checkbox" id="concernOption1" name="concerns" value="Regarding about the schedule of enrollment">
+      <label for="concernOption1">Enrollment</label></div>
+
+      <div id="check"><input type="checkbox" id="concernOption2" name="concerns" value="Regarding on Unifast">
+      <label for="concernOption2">Unifast</label></div>
+
+      <div id="check"><input type="checkbox" id="concernOption3" name="concerns" value="Regarding on payment">
+      <label for="concernOption3">Payment</label></div>
+
+      <div id="check"><input type="checkbox" id="concernOption3" name="concerns" value="Regarding about Faculty and Staff in CMCS">
+      <label for="concernOption3">Other/s</label></div>
+    </div>
+
+      <label for="additionalMessage">To:</label>
+      <textarea id="additionalMessage1" name="concerns" value="May Sagayca" rows="7" readonly>
+Ma'am May Sagayca
+Registrar
+CENTRAL MINDANAO COMPUTER SCHOOL
+2nd Floor, Villasor Building, Burgos Street, Mlang, Cotabato
+
+Good day,
+
+      </textarea>
+      
+
+    <label for="additionalMessage">Message:</label>
+    <textarea id="additionalMessage" name="additionalMessage" rows="5" required></textarea>
+
+    <button type="button" onclick="sendEmail()">Send Email</button>
+  </form>
+</div>
+</div>
+
+
+</body>
+<footer>
+  <div class="footer">
+      <div class="footer1">
+      <a href="https://maps.app.goo.gl/VuEh3eNC66pKMPWTA" target="_blank">
+      <img src="https://github.com/dzeyautajay/jayautajay.github.io/blob/main/icons/maps.ico" alt="Google Maps" height="12px" width="12px"><p3>2nd Floor, Villasor Building, Burgos Street, Mlang, cotabato</p3></iframe><br><br>
+      <a href="https://www.facebook.com/cmcs.edu" target="_blank">
+      <img src="https://github.com/dzeyautajay/jayautajay.github.io/blob/main/icons/fb.ico" alt="Google Maps" height="12px" width="12px"><p3>Central Mindanao Computer School</p3></a><br><br>
+      <a><img src="https://github.com/dzeyautajay/jayautajay.github.io/blob/main/icons/mobile.ico" alt="Google Maps" height="12px" width="12px"><p3>(064) 268 4071</p3></a><br><br>
+      </div>
+      <div class="footer2">
+          <li><a href="courses.html" target="_blank">Cources</a></li><hr>
+          <li><a href="gallery.html" target="_blank">Gallery</a></li><hr>
+          <li><a href="about.html" target="_blank">About Us</a></li><hr>
+          <li><a href="contactus.html" target="_blank">Contact Us</a></li><hr><br>
+          <li>Copyright © 2023 Jay Autajay. All rights reserved.</li>
+      </div>
+  </div>
+</footer>
+<script src="contactus.js"></script>
+</html>

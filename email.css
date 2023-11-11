@@ -1,0 +1,17 @@
+form {
+    width: 400px;
+    margin: 0 auto;
+  }
+  
+  input, textarea {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  input[type="submit"] {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+  }

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Your previous head content -->
+    <link rel="stylesheet" href="log-in.css">
+    <title>Login - CMCS</title>
+</head>
+<body>
+    <div class="login-container">
+        <form id="loginForm">
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <span class="password-toggle" onclick="togglePassword()">Show</span>
+            </div>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+
+    <script src="log-in.js"></script>
+</body>
+</html>

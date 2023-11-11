@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="container">
+        <div class="glassmorphism">
+            <img src="C:\Users\PERSONAL\Pictures\AutajayJay\main\logo.png" alt="" height="60px" width="60px">
+            <h2>Login</h2>
+            <form id="login-form" >
+                <div class="form-group">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                    <span class="password-toggle" onclick="togglePassword()" >⦾</span>
+                </div>
+                <input type="text" onkeypress="handleEnterKey(event)" placeholder="Press Enter">
+                <button type="button" id="login-button">Login</button>
+            </form>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
