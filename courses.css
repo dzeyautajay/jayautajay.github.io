@@ -12,6 +12,7 @@ body {
 }
 
 nav {
+    width:100%;
   display: flex;
   flex: 1;
   background-color: #002850;
@@ -23,7 +24,7 @@ nav {
 .school{
   position: sticky;
   left: 0;
-  margin-left: 65%;
+  right:80%;
 }
 
 
